@@ -1,0 +1,6 @@
+[package]
+name = "robo2_2_2_2024_a"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
