@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+differential_two_wheel_control= { git = "https://github.com/nityc-d-robo/differential_two_wheel_control",rev = "81b2609806ccde59350e92b1f00e7313ca9c9948" }
+motor_controller = { git = "https://github.com/nityc-d-robo/motor_controller",rev = "ef4488fb75458900dbf7fe062dbad82fe54ba03c" }
+
+safe_drive = "0.4"
+
+[package.metadata.ros]
+safe_drive_version = "0.3"
